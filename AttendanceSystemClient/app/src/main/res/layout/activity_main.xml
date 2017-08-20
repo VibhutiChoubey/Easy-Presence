@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003"
+    tools:context="attendancesystem_client.aas.example.com.attendancesystemclient.MainActivity">
+
+    <ImageView
+        android:id="@+id/easypresence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/easypresence"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/linearwithinrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/row_bg"
+        android:orientation="vertical"
+        android:layout_below="@id/easypresence"
+        android:layout_centerHorizontal="true">
+
+        <Spinner
+            android:id="@+id/spinnerclasses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerclasses"
+            android:hint="Roll number"
+            android:inputType="number"
+            android:padding="20dp"
+            android:ems="10"
+            android:id="@+id/etroll"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etroll"
+            android:hint="Fullname"
+            android:inputType="text"
+            android:padding="20dp"
+            android:ems="10"
+            android:id="@+id/etname"
+            android:textSize="15sp"/>
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etname"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            custom:pb_colorComplete="@color/green_complete"
+            custom:pb_colorNormal="@color/blue_normal"
+            custom:pb_colorPressed="@color/blue_pressed"
+            custom:pb_colorProgress="@color/purple_progress"
+            custom:pb_textComplete="All set!"
+            custom:pb_textProgress="Just a moment"
+            custom:pb_textError="Error"
+            custom:pb_colorError="@color/red_error" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

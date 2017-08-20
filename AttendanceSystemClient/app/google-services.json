@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348017597271",
+    "firebase_url": "https://easy-presence.firebaseio.com",
+    "project_id": "easy-presence",
+    "storage_bucket": "easy-presence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348017597271:android:caee72072b2c39f8",
+        "android_client_info": {
+          "package_name": "attendancesystem_client.aas.example.com.attendancesystemclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348017597271-mkfchedhpqmpohef5e7jd7tol3rgovk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "attendancesystem_client.aas.example.com.attendancesystemclient",
+            "certificate_hash": "05c3d0ffc797a9603b1214e03cc9c1ea63107e15"
+          }
+        },
+        {
+          "client_id": "348017597271-nl11t76f5qgblipl5oh9lv5kjj5ks86m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA5z85dsqVUlG6NG20dHf_o4joca_UzZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348017597271-nl11t76f5qgblipl5oh9lv5kjj5ks86m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
